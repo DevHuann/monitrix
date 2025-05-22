@@ -33,11 +33,11 @@ Before diving in, make sure you have these tools installed:
 1. Open your terminal
 2. Clone the repository:
    ```bash
-   git clone https://github.com/SigNoz/signoz.git
+   git clone https://github.com/ezeslucky/monitrix.git
    ```
 3. Navigate to the project:
    ```bash
-   cd signoz
+   cd monitrix
    ```
 
 ## How do I run it locally?
